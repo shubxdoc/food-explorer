@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a Food Explorer application built with React that allows users to search for food products, filter by category, and view more products with infinite scroll. The app uses the OpenFoodFacts API to fetch product data.
+A React-based food search application that allows users to search products, filter by category, and use infinite scroll for displaying more results.
 
 ## Technologies Used
 
