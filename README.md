@@ -1,8 +1,29 @@
-# React + Vite
+# Food Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a Food Explorer application built with React that allows users to search for food products, filter by category, and view more products with infinite scroll. The app uses the OpenFoodFacts API to fetch product data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- CSS
+- OpenFoodFacts API
+- Intersection Observer API for infinite scroll
+
+## Setup Instructions
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to launch the app.
+
+## Method Used to Solve the Problem
+
+- Implemented infinite scrolling using Intersection Observer API.
+- Integrated OpenFoodFacts API to fetch products by name, category, and barcode.
+- State management using React's Context API.
+
+## Time Taken
+
+It took me approximately 3-4 days to complete this assignment.
